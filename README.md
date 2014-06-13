@@ -1,7 +1,9 @@
 Firefall-Samples
 ================
 
-Am collection of small Firefall addons to act as code samples demoing how to do some neat stuff :>
+A collection of small Firefall addons to act as code samples demoing how to do some neat stuff.
+
+<a href="http://forums.firefallthegame.com/community/threads/tutorial-guide-addon-quick-start-guide-samples.3774021">Fourm thread</a>
 
 --[ Index ]--
 ================
