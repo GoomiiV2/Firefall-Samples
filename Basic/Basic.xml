@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns="http://www.red5studios.com/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.red5studios.com/ ../../../../schemas/component.xsd">
+    <Info
+        title="Basic_Addon"
+        author="Arkii"
+        description="A basic addon to show you the ropes"
+        url=""
+        uiVersion="1000"
+    />
+
+    <Events>
+        <!-- This line tell the game that we want to be informed when the player changes their weapon
+        By setting bind to OnWeaponChanged we tell it to call that function in Lua when the event is fired -->
+        <Event name="ON_WEAPON_CHANGED" bind="OnWeaponChanged" />
+    </Events>
+</Component>

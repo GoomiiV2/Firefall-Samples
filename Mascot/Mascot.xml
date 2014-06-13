@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns="http://www.red5studios.com/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.red5studios.com/ ../../../../schemas/component.xsd">
+    <Info
+        title="Mascot"
+        author="Arkii"
+        description="An a repositionable image to your hud."
+        url=""
+        uiVersion="1000"
+    />
+    
+    <Textures>
+        <!-- Load our image -->
+        <Texture name="mascot" src="./mascot.png" premultiplied="false">
+        
+        </Texture>
+    </Textures>
+    
+    <Events>
+        <Event name="ON_COMPONENT_LOAD" bind="OnComponentLoad" />
+    </Events>
+    
+    <Frames>
+		<HudFrame name="Main" dimensions="top:0; left:50%-125; width:250; height:250;" visible="true" depth="0">
+			<Children>
+                <StillArt id="image" dimensions="dock:fill;" style="texture:mascot;"/>    
+            </Children>
+        </HudFrame>
+    </Frames>
+</Component>
