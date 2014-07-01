@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns="http://www.red5studios.com/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.red5studios.com/ ../../../../schemas/component.xsd">
+    <Info
+        title="Mascot"
+        author="Arkii"
+        description="An a repositionable image to your hud."
+        url=""
+        uiVersion="1000"
+    />
+    
+    <Events>
+        <Event name="ON_COMPONENT_LOAD" bind="OnComponentLoad" />
+    </Events>
+    
+    <Frames>
+        <!--    type-target="true", so we can type into input boxes on web pages.
+                enable-plugins="true" for flash
+        -->
+        <WebFrame name="Main" dimensions="center-x:50%; center-y:50%; width:50%; height:35%;" type-target="true" showloading="true"  visable="true" enable-plugins="true" permanent="true">
+            <Children>
+                <Self dimensions="dock:fill" style="shadow:0"/>
+            </Children>
+        </WebFrame>
+    </Frames>
+</Component>
